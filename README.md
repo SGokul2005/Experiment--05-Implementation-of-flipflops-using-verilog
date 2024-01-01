@@ -143,7 +143,7 @@ Output Waveform.
 
 
 ### PROGRAM 
-####SR_Flipflop
+#### SR_Flipflop
 ````
 module srflipflop(s,r,clk,q,qbar);
 input s,r,clk;
@@ -158,7 +158,7 @@ qbar=r|((~s)&(qbar));
 end
 endmodule
 ````
-####JK_Flipflop
+#### JK_Flipflop
 ````
 module jkflipflop(j,k,clk,q,qbar);
 input j,k,clk;
@@ -173,7 +173,7 @@ qbar=((~j)&(qbar))| k&(~qbar);
 end
 endmodule
 ````
-####D_Flipflop
+#### D_Flipflop
 ````
 module dflipflops(
   input clk,
@@ -188,7 +188,7 @@ module dflipflops(
 end
 endmodule
 ````
-####T_Flipflop
+#### T_Flipflop
 ````
 module tflipflop(
   input clk,
@@ -214,13 +214,13 @@ endmodule
 
 
 ### RTL LOGIC FOR FLIPFLOPS 
-####SR_Flipflop
+#### SR_Flipflop
 ![Screenshot 2024-01-01 221925](https://github.com/SGokul2005/Experiment--05-Implementation-of-flipflops-using-verilog/assets/147121825/b5e90aea-0481-42f5-8504-79a3e2b3d23a)
-####JK_Flipflop
+#### JK_Flipflop
 ![Screenshot 2024-01-01 222007](https://github.com/SGokul2005/Experiment--05-Implementation-of-flipflops-using-verilog/assets/147121825/4f509227-9b58-412c-acd7-aabf80b1a9cd)
-####D_Flipflop
+#### D_Flipflop
 ![Screenshot 2024-01-01 222125](https://github.com/SGokul2005/Experiment--05-Implementation-of-flipflops-using-verilog/assets/147121825/4959dbee-7d5a-416c-a3f0-39e1556c707d)
-####T_Flipflop
+#### T_Flipflop
 ![Screenshot 2024-01-01 222217](https://github.com/SGokul2005/Experiment--05-Implementation-of-flipflops-using-verilog/assets/147121825/27c448d4-cb91-4a2a-ac47-5f8a7b2393a6)
 
 
@@ -232,13 +232,13 @@ endmodule
 
 
 ### TIMING DIGRAMS FOR FLIP FLOPS 
-####SR_Flipflop
+#### SR_Flipflop
 ![Screenshot 2023-12-31 130112](https://github.com/SGokul2005/Experiment--05-Implementation-of-flipflops-using-verilog/assets/147121825/95b6263c-9a1c-4561-9da7-88f968753cfc)
-####JK_Flipflop
+#### JK_Flipflop
 ![Screenshot 2023-12-31 131746](https://github.com/SGokul2005/Experiment--05-Implementation-of-flipflops-using-verilog/assets/147121825/bccfccf9-43f4-48db-81db-075116242384)
-####D_Flipflop
+#### D_Flipflop
 ![Screenshot 2023-12-31 133903](https://github.com/SGokul2005/Experiment--05-Implementation-of-flipflops-using-verilog/assets/147121825/d9c59c1c-7142-4f6f-b738-77f7ee58e0ce)
-####T_Flipflop
+#### T_Flipflop
 ![Screenshot 2023-12-31 125858](https://github.com/SGokul2005/Experiment--05-Implementation-of-flipflops-using-verilog/assets/147121825/effe7125-b56b-46b6-ab28-a2457d25418c)
 
 
